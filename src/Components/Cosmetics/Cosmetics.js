@@ -18,7 +18,7 @@ const Cosmetics = () => {
     }, [])
     return (
         <div>
-            <h3>Shop my cosmetics</h3>
+            <h1>Shop my cosmetics</h1>
             <div className='cosmetics'>
                 {
                     cosmetics.map(cosmetic => <Cosmetic
